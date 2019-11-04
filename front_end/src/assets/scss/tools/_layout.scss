@@ -1,0 +1,44 @@
+/* 
+ * Layout
+ */
+
+ html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 75px;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  @include padding(0 15px);
+
+  @include grid-media($md) {
+    @include padding(0 25px);
+  }
+}
+
+section {
+  width: 100%;
+
+  @include grid-container;
+}
+

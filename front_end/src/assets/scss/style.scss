@@ -1,0 +1,38 @@
+/*!
+Theme Name: Citrus
+Author: DXDY Tech
+Author URI: http://dxdy.tech
+Description: Custom theme developed for the Cirtus.
+*/
+
+// Neat Bourbon
+@import "~bourbon/core/bourbon";
+@import "~bourbon-neat/core/neat";
+
+// Settings
+// Used with preprocessors and contain font, colors definitions, etc.
+// =====================
+@import "settings/variables";
+@import "settings/fonts";
+
+// Tools
+// Globally used mixins and functions
+@import "tools/animation";
+@import "tools/layout";
+@import "tools/mixins";
+@import "tools/typography";
+
+// Components
+// Specific UI components
+
+
+
+
+// Vendor Styles
+// Styles included with plugins, etc
+// ======================
+
+// Overrides
+// Utilities and helper classes with ability to override anything which goes before
+@import "overrides/utility";
+@import "overrides/overrides";

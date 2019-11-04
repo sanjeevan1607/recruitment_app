@@ -1,0 +1,38 @@
+// COLORS
+$red : #E50914;
+$white : #fff;
+$black : #000;
+$gray : #828282;
+
+// FONT WEIGHTS
+$font-thinnest: 100;
+$font-thinner: 200;
+$font-thin: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+// BREAKPOINTS
+
+// Mobiles
+$xs: (media: 576px);
+
+// Tablets (portrait view)
+$sm: (media: 768px);
+
+// Tablets (Landscape view)
+$md: (media: 992px);
+
+// Small desktops
+$lg: (media: 1200px);
+
+// Large desktops
+$xl: (media: 1440px);
+
+// TRANSITIONS
+$cubic-transition: cubic-bezier(.51, .92, .24, 1.15);
+$cubic-transition-2: cubic-bezier(0, 0, .2, 1);
+
+// Font Family
+$font-family: 'Roboto', sans-serif;
